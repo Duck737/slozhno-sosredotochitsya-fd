@@ -2,3 +2,24 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+
+:root {
+  --background-image: #000028 url(../images/cover-image-dark.png);
+  --main-font-family: 'IBM Plex Mono', 'Open Sans';
+  --main-text-size: 18px;
+  --main-line-height: 23.4px;
+  --text-color: #F1B2CE;
+  --background-color: #000028;
+  --logo-size-small: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --logo-size-large: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  --logo-line-height: 82.5%;
+  --logo-color: #DB00FF;
+  --additional-color: #000028;
+  --accent-color: #FF0070;
+  --accent-color-alternative: #FF0070;
+  --accent-color-pale:rgba(255, 0, 112, 0.4);
+}
+
+
+
+// В задании переменная accent-color для цвета темы, наверно можно поменять некоторые переменные
