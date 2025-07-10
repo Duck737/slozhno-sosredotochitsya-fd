@@ -241,6 +241,7 @@
 
   .header__title {
     bottom: 16px;
+    grid-column: 2 / 3;
   }
 
   .header__logo {
@@ -266,10 +267,6 @@
 
   .logo {
     font-size: var(--logo-size-large);
-  }
-
-  .header__title {
-    grid-column: 2 / 3;
   }
 
   .content {
@@ -338,11 +335,12 @@
   .content__section-gallery-image:nth-child(5) {
     grid-column: 2 / 4;
   }
+
+  .footer {
+    padding: 0 20px 20px;
+  }
 }
 
-.footer {
-  padding: 0 20px 20px;
-}
 
 @media (width >= 1024px) {
   .header__theme-menu {
