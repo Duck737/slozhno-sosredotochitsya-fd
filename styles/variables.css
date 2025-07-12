@@ -5,7 +5,7 @@
 
 :root {
   --background-image: url(../images/cover-image-dark.png) #000028;
-  --main-font-family: 'IBM Plex Mono', 'Open Sans';
+  --main-font-family: 'IBM Plex Mono';
   --main-text-size: 18px;
   --main-line-height: 23.4px;
   --text-color: #F1B2CE;

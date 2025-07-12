@@ -45,7 +45,7 @@
           </li>
         </ul>
       </nav>
-      <p class="header__rec-text" aria-hidden="true">rec</p>
+      <span class="header__rec-text" aria-hidden="true">rec</span>
       <h1 class="header__logo logo">no focus</h1>
       <h2 class="header__title title-decor">
         Что делать, когда не можешь делать ничего<br />Или почему нам так сложно
@@ -57,44 +57,52 @@
         <h2 class="content__section-title">
           Почему сосредоточиться так сложно
         </h2>
-        <article class="content__section-article">
-          <h3 class="content__section-article-subtitle title-decor">
-            Многозадачность
-          </h3>
-          <p class="content__section-article-text">
-            Особенно сложно сосредоточиться, когда задач много и все они —
-            важные. Где же легендарная многозадачность, когда она так нужна вам
-            (и всем нанимающим менеджерам этого мира)? А дело в том, что её
-            просто не существует. Исследователи
-            <a
-              class="content__section-article-link"
-              href="https://dana.org/news-and-insights/"
-              >выяснили</a
-            >, что мозгу тяжело концентрироваться даже на двух делах
-            одновременно. А когда в поле внимания попадает несколько важных
-            задач, организм паникует и выделяет кортизол и адреналин — «гормоны
-            стресса». Из-за этого мы работаем невнимательно: ошибаемся и быстро
-            устаём.
-          </p>
-          <h3 class="content__section-article-subtitle title-decor">Дофамин</h3>
-          <p class="content__section-article-text">
-            С гормонами стресса всё понятно, но дальше — ещё интереснее. В нашей
-            невозможности сосредоточиться замешана и полная противоположность
-            стрессу — дофамин. Это вещество участвует в системе вознаграждения
-            мозга. Причём тут он? Мы часто отвлекаемся от важной задачи на
-            что-то более «приятное» для мозгов. Например, смотрим лайки в
-            соцсетях. В это время и выделяется дофамин — и мы чувствуем
-            удовольствие. Получается замкнутый круг: чем больше отвлекаешься,
-            тем больше удовольствия получаешь.
-          </p>
-        </article>
+        <div class="content__section-article">
+          <div class="content__section-article-wrapper">
+            <h3 class="content__section-article-subtitle title-decor">
+              Многозадачность
+            </h3>
+            <p class="content__section-article-text">
+              Особенно сложно сосредоточиться, когда задач много и все они —
+              важные. Где же легендарная многозадачность, когда она так нужна
+              вам (и всем нанимающим менеджерам этого мира)? А дело в том, что
+              её просто не существует. Исследователи
+              <a
+                class="content__section-article-link"
+                href="https://dana.org/news-and-insights/"
+                >выяснили</a
+              >, что мозгу тяжело концентрироваться даже на двух делах
+              одновременно. А когда в поле внимания попадает несколько важных
+              задач, организм паникует и выделяет кортизол и адреналин —
+              «гормоны стресса». Из-за этого мы работаем невнимательно:
+              ошибаемся и быстро устаём.
+            </p>
+          </div>
+          <div class="content__section-article-wrapper">
+            <h3 class="content__section-article-subtitle title-decor">
+              Дофамин
+            </h3>
+            <p class="content__section-article-text">
+              С гормонами стресса всё понятно, но дальше — ещё интереснее. В
+              нашей невозможности сосредоточиться замешана и полная
+              противоположность стрессу — дофамин. Это вещество участвует в
+              системе вознаграждения мозга. Причём тут он? Мы часто отвлекаемся
+              от важной задачи на что-то более «приятное» для мозгов. Например,
+              смотрим лайки в соцсетях. В это время и выделяется дофамин — и мы
+              чувствуем удовольствие. Получается замкнутый круг: чем больше
+              отвлекаешься, тем больше удовольствия получаешь.
+            </p>
+          </div>
+        </div>
       </section>
       <section class="content__section">
         <h2 class="content__section-title">
           Что снижает концентрацию внимания?
         </h2>
-        <article class="content__section-article">
-          <div class="content__section-wrapper">
+        <div
+          class="content__section-article content__section-article-alternative"
+        >
+          <div class="content__section-article-wrapper">
             <h3 class="content__section-article-subtitle title-decor">
               Многозадачность
             </h3>
@@ -107,7 +115,7 @@
               может не выдержать, если не давать ей отдохнуть.
             </p>
           </div>
-          <div class="content__section-wrapper">
+          <div class="content__section-article-wrapper">
             <h3 class="content__section-article-subtitle title-decor">Еда</h3>
             <p class="content__section-article-text">
               «Быстрые углеводы» — сахар, белый хлеб, сладости — молниеносно
@@ -118,7 +126,7 @@
               хотим ещё больше быстрых углеводов.
             </p>
           </div>
-          <div class="content__section-wrapper">
+          <div class="content__section-article-wrapper">
             <h3 class="content__section-article-subtitle title-decor">
               Гаджеты
             </h3>
@@ -132,20 +140,21 @@
               тем больше времени затем нужно, чтобы вернуться к работе.
             </p>
           </div>
-        </article>
+        </div>
       </section>
       <section class="content__section">
         <h2 class="content__section-title">
           Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх
           секунд)
         </h2>
-        <article class="content__section-article">
-          <h3
-            class="content__section-article-subtitle additional-margin title-decor"
-          >
-            5 простых (на самом деле не очень) советов
-          </h3>
-          <div class="content__section-wrapper">
+        <div class="content__section-article">
+          <div class="content__section-section-wrapper">
+            <h3
+              class="content__section-article-subtitle additional-margin title-decor"
+            >
+              5 простых (на самом деле не очень) советов
+            </h3>
+            <div></div>
             <h3
               class="content__section-article-subtitle content__section-article-subtitle-alternative title-decor"
             >
@@ -212,13 +221,13 @@
               несколько часов и круто тренирует направленное внимание.
             </p>
           </div>
-        </article>
+        </div>
       </section>
-      <section class="content__section">
-        <h3 class="content__section-article-subtitle title-decor">
+      <section class="content__section-gallery">
+        <h2 class="content__section-article-subtitle title-decor">
           А можно в картинках?
-        </h3>
-        <article class="content__section-gallery">
+        </h2>
+        <div class="content__section-gallery-wrapper">
           <img
             class="content__section-gallery-image"
             src="./images/sunset.png"
@@ -226,13 +235,13 @@
             loading="lazy"
           />
           <img
-            class="content__section-gallery-image"
+            class="content__section-gallery-image image-large-vertical"
             src="./images/ice-cream.png"
             alt="Изображение тарелки с мороженым"
             loading="lazy"
           />
           <img
-            class="content__section-gallery-image"
+            class="content__section-gallery-image image-large-vertical"
             src="./images/tape.png"
             alt="Изображение аудиокассеты"
             loading="lazy"
@@ -244,12 +253,12 @@
             loading="lazy"
           />
           <img
-            class="content__section-gallery-image"
+            class="content__section-gallery-image image-large-horizontal"
             src="./images/street.png"
             alt="Изображение улицы"
             loading="lazy"
           />
-        </article>
+        </div>
       </section>
     </main>
     <footer class="footer decorated-zone">
